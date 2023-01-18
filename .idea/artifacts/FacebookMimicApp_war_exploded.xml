@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="FacebookMimicApp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/FacebookMimicApp_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="FacebookMimicApp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.mysql:mysql-connector-j:8.0.31" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.19.4" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="FacebookMimicApp/web/Web" />
+    </root>
+  </artifact>
+</component>

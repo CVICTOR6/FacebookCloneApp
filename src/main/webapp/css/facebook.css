@@ -1,0 +1,80 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    background: #f0f2f5;
+}
+.left h2
+{
+    font-size: 3em;
+    color: #0d6efd;
+    font-weight: bold;
+}
+.left p
+{
+    font-size: 1.5em;
+}
+.forgot p{
+    text-align: center;
+}
+.create {
+    text-align: center;
+}
+/* Form matters */
+.login-page {
+    margin-top: 15%;
+    margin-left:10%;
+    margin-right: 10%;
+}
+.create button{
+    width: 60%;
+    height:50px;
+    background: #00a400;
+    border-color: #00a400;
+}
+.modal-backdrop.show {
+    opacity: .0 !important;
+}
+.textBoxFormatter{
+    width: 100%;
+    height: 50px;
+}
+
+@media(min-width:768px) {
+    .removepost {
+        margin-left: -80px;
+
+    }
+}
+
+
+@media(min-width:768px)
+{
+footer {
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    color: #7188b5;
+    bottom: 0px;
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+}
+
+footer{
+    text-align: center;
+    font-size: 18px;
+}
+footer p {
+    word-spacing: 10px;
+    width: 75%;
+    margin: auto;
+    cursor: pointer;
+}
+
+footer > .copyright {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    word-spacing: 0px;
+}
+
